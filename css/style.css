@@ -1702,14 +1702,15 @@ h1, h2, h3, h4, h5,
     padding: 5px;
     font-size: 16px;
     text-transform: none;
+    line-height: 1.7;
   }
   .card-body a{
     color: #000;
   }
   .card-head{
-    font-weight: 400;
+    color: #c9ccd4;
   }
   .brand{
-    background-color: #43ab92;
+    background-color: white;
   }
 
