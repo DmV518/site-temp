@@ -306,11 +306,11 @@ h1, h2, h3, h4, h5,
     padding: 2em 0; }
 
 .site-footer {
-  padding: 4em 0;
+  padding: 2em 0;
   background-color: #c9ccd4; }
   @media (min-width: 768px) {
     .site-footer {
-      padding: 8em 0; } }
+       } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
@@ -1455,7 +1455,7 @@ h1, h2, h3, h4, h5,
 .more-39291 {
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 400;
   position: relative;
   padding-right: 20px;
   color: #000; }
@@ -1713,9 +1713,12 @@ h1, h2, h3, h4, h5,
     color: #000;
   }
   .card-head{
-    color: #c9ccd4;
+    font-weight: 400;
   }
   .brand{
     background-color: white;
+  }
+  .list-unstyled li{
+    line-height: 1.2em;
   }
 
