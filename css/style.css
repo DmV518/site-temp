@@ -1239,6 +1239,11 @@ h1, h2, h3, h4, h5,
   margin-top: -70px;
   position: static; }
 
+.ftco-blocks-cover-2 .ftco-service-image-1 {
+  margin-top: -70px;
+  position: static; }
+  
+
 .owl-carousel-wrapper {
   height: 100vh;
   min-height: 600px;
@@ -1249,11 +1254,23 @@ h1, h2, h3, h4, h5,
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+ .ftco-cover-2 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
+  
   .ftco-cover-1, .ftco-cover-1 .container > .row {
     height: 100vh;
     min-height: 600px; }
   .ftco-cover-1 > .container {
     position: relative; }
+    .ftco-cover-2, .ftco-cover-2 .container > .row {
+      height: 70vh;
+      min-height: 400px; }
+    .ftco-cover-2 > .container {
+      position: relative; }
+  
   .ftco-cover-1.overlay {
     position: relative; }
     .ftco-cover-1.overlay:before {
@@ -1720,5 +1737,14 @@ h1, h2, h3, h4, h5,
   }
   .list-unstyled li{
     line-height: 1.2em;
+  }
+  .box-descr{
+    background: #fff;
+    padding: 50px 30px;
+  }
+  .heading{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
   }
 
