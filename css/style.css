@@ -1259,6 +1259,15 @@ h1, h2, h3, h4, h5,
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+  .ftco-cover-3 {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 10vh;
+    min-height: 150px;
+  
+  }
   
   .ftco-cover-1, .ftco-cover-1 .container > .row {
     height: 100vh;
@@ -1750,5 +1759,18 @@ h1, h2, h3, h4, h5,
   .serv img{
     max-width: 100%;
     height: auto;
+  }
+  .arrow-right{
+    position: fixed;
+    height: 6vw;
+    width: 5vw;
+    background-color: white;
+    border-width: 0.5em;
+    color: #000;
+    top: 50%;
+    left: 0pt;
+  }
+  .arrow-right svg{
+    
   }
 
