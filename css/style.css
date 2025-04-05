@@ -1760,7 +1760,7 @@ h1, h2, h3, h4, h5,
     max-width: 100%;
     height: auto;
   }
-  .arrow-right{
+  .arrow-left{
     position: fixed;
     height: 6vw;
     width: 5vw;
@@ -1770,7 +1770,21 @@ h1, h2, h3, h4, h5,
     top: 50%;
     left: 0pt;
   }
+  .arrow-right{
+    position: fixed;
+    height: 6vw;
+    width: 5vw;
+    background-color: white;
+    border-width: 0.5em;
+    color: #000;
+    top: 50%;
+    left: 100%;
+    transform: translateX(-5vw);
+  }
   .arrow-right svg{
-    
+    margin-top: 0.4vw;  
+  }
+  .arrow-left svg{
+    margin-top: 0.4vw;  
   }
 
