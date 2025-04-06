@@ -1769,6 +1769,7 @@ h1, h2, h3, h4, h5,
     color: #000;
     top: 50%;
     left: 0pt;
+    transform: translateY(-3vw);
   }
   .arrow-right{
     position: fixed;
@@ -1779,7 +1780,8 @@ h1, h2, h3, h4, h5,
     color: #000;
     top: 50%;
     left: 100%;
-    transform: translateX(-5vw);
+    transform: translateX(-5vw) translateY(-3vw);
+    
   }
   .arrow-right svg{
     margin-top: 0.4vw;  
