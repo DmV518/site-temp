@@ -1264,8 +1264,8 @@ h1, h2, h3, h4, h5,
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    height: 10vh;
-    min-height: 150px;
+    height: 50vh;
+    min-height: 280px;
   
   }
   
