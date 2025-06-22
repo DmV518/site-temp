@@ -1790,3 +1790,12 @@ h1, h2, h3, h4, h5,
     margin-top: 0.4vw;  
   }
 
+  .home{
+    position: fixed;
+    height: 2vw;
+    width: 2vw;
+    color: #000;
+    top: 5%;
+    left: 3pt;
+   
+  }
